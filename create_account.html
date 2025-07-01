@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="css/Styles_account.css">
+</head>
+<body>
+    <!--<div class="container"> -->
+        <div class="left-section">
+            <img src="images/graphs.png" alt="Graph Image">
+        </div>
+        <div class="right-section">
+            <h1>Create an account</h1>
+            <p>Already have an account? <a href="log_in.html">Log in</a></p>
+            <form action="process_create_account.php" method="POST">
+                <div class="form-group">
+                    <input type="text" name="first_name" placeholder="First Name" required>
+                    <input type="text" name="last_name" placeholder="Last Name" required>
+                </div>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Enter your password" required>
+                <div class="checkbox">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">I agree to the <a href="#">Terms & Conditions</a></label>
+                </div>
+                <button type="submit" class="create-btn">Create account</button>
+            </form>
+            <div class="reg">
+                <p>________________________________ Or Register With _________________________________</p>
+            </div>
+            <div class="social-buttons">
+                <button class="google-btn">
+                    <a href="https://www.google.com/">
+                        <img src="images/google.png" alt="Google_logo">Google
+                    </a>
+                </button>
+                <button class="facebook-btn">
+                    <a href="https://www.facebook.com/">
+                        <img src="images/fb.png" alt="FB_logo">Facebook
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

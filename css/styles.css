@@ -1,0 +1,777 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin-top: 1200px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ___________________________________________________Landing Page CSS____________________________________________________*/
+a{
+    color: rgb(0, 0, 0) !important;
+    font-weight: bold;
+  }
+  .navbar-brand {
+  margin-right: 25px; /* Adjust the margin to control space */
+}
+  .red-line {
+  width: 100%;
+  height: 10px; /* Adjust the thickness */
+  background-color: red;
+  }
+  
+  .land-container {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    color: #000000;
+    scroll-snap-type: x  mandatory;
+  }
+
+h1 {
+
+  margin-top: 45px; /* Add some space between the image and text */
+  font-weight: bold;
+  font-size: 40px;
+}
+pre{
+
+    font-size: 40px;
+  margin-top: 40px;
+  margin-block-end: 75px;
+  font-weight: bold;
+  font-size: 32px;
+}
+p{
+  
+  margin-top: 100px;
+  font-weight: bold;
+
+}
+
+.mail{
+
+    margin-top: -20px;
+}
+
+.last{
+    font-size: 32px;
+    margin-top: 50px;
+    font-weight: 700;
+}
+input[type="email"] {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid red; /* Red border */
+  border-radius: 5px; /* Optional: Slightly rounded corners */
+  font-size: 20px;
+  background-color: #f9a4a4;
+}
+button {
+  padding: 10px ;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  background-color:red; /* Green background */
+  color: rgb(0, 0, 0); /* White text */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+}
+img {
+  float: right;
+  margin-right: 50px;
+  width: 600px;
+  height: 600px;
+}
+ 
+ 
+  #line {
+    width: 1900px;
+    height: 50px;
+    background-color: #cbcbcb;
+    padding: 0 !important;
+    color: rgb(0, 0, 0) !important;
+    
+
+  }
+  .container-fluid{
+    margin-left: 550px;
+    width: 1200px;
+    font-size: 22px;
+  }
+
+  .line2 {
+    position: sticky;
+    top: 0px;
+    left: 0;
+  }
+
+  header {
+    background-color: #ffffff;
+    text-align: center;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  
+/*------------------------------------------------------- Why join us CSS  -----------------------------------------------*/
+.header {
+    background-color: #e9e3e3;
+color: white;
+padding: 15px;
+text-align: center;
+width: 1180px;
+height:140px;
+margin-left:10px;
+margin-top: - 20px;
+border-style:groove;
+border-color: #000000;
+color: black;
+text-align: center;
+}
+    
+
+
+.header h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.header h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.contact-button {
+   
+    align-items: center;
+    background-color: red; /* Button color */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Button padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Change cursor on hover */
+    border:black solid;
+}
+
+.why-join {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.why-join h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    
+}
+
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 3fr));
+    gap: 20px;
+    width: 1000px;
+    margin-top: 10px;
+}
+ 
+.benefit {
+    margin-top: 10px;
+    background-color: red; /* Red background */
+    color: white;
+    height: 170px;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    flex:30% ; /* Set width to roughly 30% to create 3 boxes per row */
+    margin: 10px; /* Space between boxes */
+    border:black solid; 
+
+}
+
+.benefit p{
+    color: white;
+    font-size: 20px;
+}
+
+
+.benefits img{
+
+    width: 75px;
+    height: 75px;
+
+}
+
+
+.learning p{
+    margin-bottom: 10px;
+
+}
+
+.enroll-button {
+    background-color: #ff0000;
+    color: white;
+    padding: 15px 70px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 45px;
+    display: inline-block;
+    border:black solid;
+}
+
+.enroll-button:hover {
+    background-color: #a8888b;
+    color: black;
+}
+.benefit img{
+    margin-top: -30px ;
+    align-items: center;
+}
+
+/* Education for everyone CSS ____________________________________________________________________________________ */
+
+.container {
+    background-color: #000000;
+    width: 1550px;
+    height: 170px;
+    color: white;
+    margin-top: 35px;
+    text-align: center;
+
+}
+
+.container h1 {
+    font-size: 2rem;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.container h2{
+    color: white;
+    margin-top: 10px;
+
+}
+.container p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+
+.btn1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4b4b;
+    color: #fff;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 37px;
+    border:#000 solid;
+
+}
+.btn1:hover {
+    background-color: #a8888b;
+    color: black;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4b4b;
+    color: #fff;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 39px;
+    border:#000 solid;;
+}
+.btn2:hover {
+    background-color: #a8888b;
+    color: black;
+}
+
+.btn3 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4b4b;
+    color: #fff;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 88px;
+    border:#000 solid;
+}
+.btn3:hover {
+    background-color: #a8888b;
+    color: black;
+}
+.offerings {
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+padding: 50px;
+gap: 30px;
+margin-left: 100px;
+align-items: center;
+
+}
+
+
+
+.card {
+background-color: #dcdcdc;
+border-radius: 8px;
+padding: 0px;
+height: 500px;
+width: 300px;
+text-align: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+border-style:solid;
+align-items: center;
+display: flex;
+flex-direction: column;
+padding: 20px;
+}
+
+.card p{
+    margin-top: 10px;
+}
+
+.card img{
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+    
+}
+
+.card1 {
+    background-color: #dcdcdc;
+border-radius: 8px;
+padding: 0px;
+height: 410px;
+width: 300px;
+text-align: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+border-style:solid;
+align-items: center;
+display: flex;
+flex-direction: column;
+padding: 30px;
+    }
+
+    .card1 p{
+        margin-top: 10px;
+    }
+
+.card1 img{
+
+    height: 100px;
+    width: 100px;
+    margin-left: 40px;
+}
+
+
+h2 {
+font-size: 1.5rem;
+margin-bottom: 20px;
+color: #000;
+}
+
+p {
+font-size: 1rem;
+margin-bottom: 30px;
+color: #333;
+}
+
+.button1 {
+display: inline-block;
+padding: 10px 20px;
+background-color: #ff4b4b;
+color: #fff;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+margin-top: 03px;
+border:#000 solid;
+}
+
+.button1:hover {
+ background-color: #a8888b;
+color: black;
+}
+
+
+.button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4b4b;
+    color: #fff;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 95px;
+    border:#000 solid;
+    }
+    
+    .button2:hover {
+        background-color: #a8888b;
+        color: black;
+    }
+
+    .button3 {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 110px;
+        background-color: #ff4b4b;
+        color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top:  113px;
+        border:#000 solid;
+        }
+        
+        .button3:hover {
+            background-color: #a8888b;
+            color: black;
+        }
+        
+
+
+        /* Invincible Page CSS ___________________________________________________________________________*/
+        .block {
+            width: 1550px;
+            margin: 0 auto;
+            padding: 20px;
+            
+        }
+        
+        .Invi {
+            margin-bottom: 110px;
+            font-size: 36px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            color: #fff;
+            background-color: #000;
+            padding: 50px;
+            border-radius: 5px;
+            height: 130px;
+            
+        }
+        
+
+        .plans {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        
+        .plan {
+            margin-left: 120px;
+            margin-right: 130px;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 10px;
+            width: 300px;
+            height: 390PX;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        
+            
+        }
+        
+        .plan h2 {
+            font-size: 22px;
+            margin-bottom: 20px;
+            position: relative;
+            top: -40px;
+        }
+        
+        .plan ul {
+            
+            margin-bottom: 20px;
+            font-size: 20PX;
+        }
+        
+        .plan ul li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .gold {
+            margin-top: 80px;
+            margin-right: 50px;
+            text-decoration-style: solid;
+            padding: 50px;
+            text-align: center;
+            background-color: #fae7d1;
+            border-style:solid;
+            width: 300px;
+            height: 400px;
+          
+        }
+        
+        .gold   ul{
+            text-align: left;
+        }
+        .platinum {
+            margin-top: 80px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+            text-decoration-style: solid;
+            padding: 50px;
+            text-align: center;
+            background-color: #d7d7d7;
+            border-style:solid;
+            width: 300px;
+            height: 400px;
+        }
+        
+        .platinum UL{
+            text-align:left;
+        }
+        .diamond {
+            margin-top: 80px;
+            margin-right: 500px;
+            text-decoration-style: solid;
+            padding: 50px;
+            text-align: center;
+            background-color: #d5e7e6;
+            border-style:solid;
+            width: 300px;
+            height: 400px;
+        }
+
+        .diamond UL{
+            text-align:left ;
+        }
+        
+        .enroll-btn1 {
+        
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            border:white solid;
+            margin-top: 150px;
+            
+        }
+        
+        .enroll-btn1:hover {
+            background-color: #0a0b6a;
+            
+        }
+        
+        .enroll-btn2 {
+            margin-top: 25px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            border:white solid;
+            margin-top: 100px;
+        }
+        
+        .enroll-btn2:hover {
+            background-color: #0a0b6a;
+        }
+        
+        .enroll-btn3 {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 70px;
+            border:white solid;
+
+        }
+        
+        .enroll-btn3:hover {
+            background-color: #0a0b6a;
+        }
+        
+        .footer {
+            width: 1540;
+            margin-top: 30px;
+            background-color: #e74c3c;
+            padding: 40px;
+            color: #fff;
+            border-radius: 5px;
+            height: 130px;
+        }
+        
+        .footer p {
+            font-size: 22px;
+            text-align: center;
+            margin-top: 10px;
+            color: black;
+        }
+
+    
+        
+        /*----------------------------------------------------Last Page CSS--------------------------------------------------------*/
+        
+        /* Contact Form Section */
+        .contact-form {
+            padding: 40px;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            width: 1685px;
+           
+        }
+        
+        .form-container {
+            background-color: #e0e0e0;
+            padding: 20px;
+            border-radius: 8px;
+            width: 550px;
+            margin-left: 750px ;
+        }
+        
+        .form-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .form-container input, .form-container textarea {
+            width: 500px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        .form-container button {
+            background-color: #E33B3F;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 500px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .form-container button:hover {
+            background-color: #b64845;
+        }
+        
+        /* Footer Section */
+        footer {
+            background-color: #E33B3F;
+            color: rgb(255, 255, 255);
+            padding: 50px 0;
+            width: 1650x;
+            height: 300px;
+           margin-top: 50px;
+        }
+        
+
+        .company{
+
+            margin-left: -20px;
+        }
+
+        .links{
+
+            margin-left: 40px;
+        }
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-left: 100px;
+        }
+
+        .footer-item address pre{
+            margin-top: 10px;
+        }
+        
+    
+        
+        .footer-item h3 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .company ul{
+
+            margin-left: 21px;
+        }
+
+       
+        .footer-item ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-item ul li {
+            margin: 10px 0;
+        }
+        
+        .footer-item ul li {
+            color: white;
+            text-decoration: none;
+        }
+        
+
+
+        .footer-item img{
+            position: relative;
+            left: -400px;
+        }
+        
+        .address pre {
+            margin-bottom: 10px;
+            font-size: 14px;
+            margin-right: 10px;
+            text-align: left;
+            
+        }
+        
+        .address img {
+            
+            width: 20px;
+            height: 20px;
+        }
+        
+      
+    .footer-item quick-links{
+        color: white;
+    }

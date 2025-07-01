@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+/*.container {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+}*/
+
+.left-section {
+   
+    flex: 1;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section img {
+    height: 800px;
+    width: 100%;
+
+}
+
+.right-section {
+    flex: 1;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.right-section h1 {
+    margin-bottom: 20px;
+    font-size: 54px;
+    
+}
+
+.right-section pre{
+    font-size: 42px;
+    margin-left: 150px;
+}
+.right-section p {
+    margin-bottom: 60px;
+   margin-left: 6px;
+}
+
+.right-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.form-group input {
+    width: 330px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group pre{
+    font-size: 15px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: -50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.create-btn {
+    margin-top:15px;
+    background-color: #ff4a57;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 400px;
+    margin-left: 150px;
+}
+
+.Para{
+    margin-left: 250px;
+}

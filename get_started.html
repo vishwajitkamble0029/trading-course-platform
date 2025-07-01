@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started</title>
+    <link rel="stylesheet" href="css/styles_get.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2 style="color:black"> Know more about online Courses</h>
+            <div class="contact">
+                <button class="call-button"><b>Call Us : +91 8208246561</b></button>
+            </div>
+        </header>
+        
+        <div class="main-content">
+            <div class="left-section">
+                <div class="info-box">
+                    <img src="images/address.png">
+                    <b style="font-size: 28px;">Address</b>
+                    <pre>C wing 303, Ghule Park, Nanded city, Pune 411024</pre>
+                </div>
+                <div class="info-box">
+                    <img src="images/Email.png">
+                    <b style="font-size: 28px;">Email</b>
+                    <pre>rrajveernikam@gmail.com</pre>
+                </div>
+                <div class="info-box">
+                    <img src="images/Clock.png">
+                    <b style="font-size: 28px;">Hours of Operation</b >
+                    <pre>Monday to Friday : 9:30am to 6 pm</pre>
+                </div>
+                <div class="Line1"></div>
+                <div class="Line2"></div>
+                <div class="Line3"></div>
+                <div class="Line4"></div>
+                <div class="Line5"></div>
+                <div class="Line6"></div>
+                <div class="Line7"></div>
+                <div class="Line8"></div>
+            </div>
+           
+            <div class="right-section">
+                <h3>Ready to Get Started?</h3>
+                <form action="process_get_started.php" method="POST">
+                    <label for="phone">Enter Your WhatsApp number*</label>
+                    <input type="text" id="phone" name="phone" placeholder="+91" required>
+                    
+                    <label for="city">City*</label>
+                    <input type="text" id="city" name="city" placeholder="Enter your city" required>
+
+                    <label for="capital">How much capital you are planning to trade with?*</label>
+                    <input type="text" id="capital" name="capital" placeholder="Minimum 10000" required>
+
+                    <label for="experience">How much trading experience do you have?</label>
+                    <input type="text" id="experience" name="experience" placeholder="Experience">
+
+                    <label for="batch">Which batch do you want to join?*</label>
+                    <input type="text" id="batch" name="batch" placeholder="Batch" required>
+
+                    <label for="payment">Choose Your Payment option</label>
+                    <select name="payment" id="payment">
+                        <option value="">Choose Payment Gateway</option>
+                        <option value="Google">Google</option>
+                        <option value="Paytm">Paytm</option>
+                        <option value="Credit Card">Credit Card</option>
+                        <option value="Debit Card">Debit Card</option>
+                    </select>
+                     
+                    <div class="terms">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">Accept terms and privacy policy *</label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

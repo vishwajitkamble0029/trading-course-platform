@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+/*.container {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+}*/
+
+.left-section {
+   
+    flex: 1;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section img {
+    height: 800px;
+    width: 100%;
+
+}
+
+.right-section {
+    flex: 1;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.right-section h1 {
+    margin-bottom: 20px;
+    font-size: 54px;
+    
+}
+
+.right-section p {
+    margin-bottom: 60px;
+   margin-left: 6px;
+}
+
+.right-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.form-group input {
+    width: 330px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.create-btn {
+    margin-top:15px;
+    background-color: #ff4a57;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+}
+
+.google-btn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 20%;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.facebook-btn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 20%;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-right: 130px;
+}
+
+
+.google-btn {
+    background-color: #FFFFFF;
+}
+
+.google-btn img{
+    position: absolute;
+    left:958px;
+    bottom: 84px;
+    height: 30px;
+
+}
+
+
+.facebook-btn {
+    background-color: #FFFFFF;
+}
+
+.facebook-btn img{
+    position: absolute;
+    left: 1365px;
+    bottom: 78px;
+    height: 35px;
+
+}
+
+.reg{
+    margin-top: 45px ;
+    text-align: center;
+}
