@@ -24,11 +24,6 @@ A full-stack web application for hosting and managing trading courses with role-
 
 ---
 
-## 📸 Screenshots
-
-> _Add screenshots of key pages like login, dashboard, course list, etc._
-
----
 
 ## 🔧 Installation & Setup
 
