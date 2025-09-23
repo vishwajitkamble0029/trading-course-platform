@@ -25,8 +25,12 @@ A full-stack web application for hosting and managing trading courses with role-
 ---
 
 
+
 ## 🔧 Installation & Setup
 
 1. Clone the repo:ithub.com/y
    ```bash
-   git clone https://gourusername/trading-courses-platform.git
+git clone https://gourusername/trading-courses-platform.git
+
+
+   
